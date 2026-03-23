@@ -2,7 +2,7 @@ class Simu < Formula
   desc 'CLI tool to manage iOS simulators and Android emulators on macOS'
   homepage 'https://github.com/yefga/Simu'
   url 'https://github.com/yefga/Simu/archive/refs/tags/v0.1.0.tar.gz'
-  sha256 '152a7cf4271c88fc85e07c8e643a090851743c57ac852534c43129b6bfd53554'
+  sha256 'f162d66ac0e58fb970e109f19c9e64ce30d0cc08e035cde9f7480872bb8ecafd'
   license 'MIT'
 
   depends_on 'ruby'
