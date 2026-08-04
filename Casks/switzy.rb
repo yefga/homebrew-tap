@@ -1,11 +1,13 @@
 cask "switzy" do
-  version "1.0.1"
-  sha256 "c03a770bc0f1fe0bd0edb4142718a0376725dd5e8d897aef747480baaf2547b8"
+  version "1.1.1"
+  sha256 "3cadab37a63acc3430fa142036ea70abd9c1417e4b9863e0ad35bddf0ceb1029"
 
   url "https://github.com/yefga/Switzy/releases/download/v#{version}/Switzy-v#{version}.dmg"
   name "Switzy"
   desc "Git Identity Manager"
   homepage "https://github.com/yefga/Switzy"
+
+  depends_on macos: :ventura
 
   app "Switzy.app"
 
